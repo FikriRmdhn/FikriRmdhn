@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Curriculum Vitae</h1>
+    </header>
+
+    <section id="personal-info">
+        <h2>Informasi Pribadi</h2>
+        <p>Nama: Muhammad Fikri Ramadhan</p>
+        <p>Alamat: Cipadung No. 12</p>
+        <p>Email: danzfikri20@gmail.com</p>
+        <p>Telepon: 082128668260</p>
+    </section>
+
+    <section id="education">
+        <h2 onclick="toggleDetails('education-details')">Pendidikan</h2>
+        <div id="education-details" style="display: none;">
+            <p><strong>Mahasiswa Teknik Informatika</strong></p>
+            <p>Universitas Islam Negeri Sunan Gunung Djati Bandung</p>
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <h2>Keterampilan</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python, Java</li>
+        </ul>
+    </section>
+
+    <button onclick="changeBackgroundColor()">Ubah Warna Latar</button>
+
+    <footer>
+        <p>Hubungi saya di danzfikri20@gmail.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
